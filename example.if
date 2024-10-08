@@ -1,0 +1,54 @@
+// if example
+int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x is greater than y");
+}
+
+//if else example
+int time = 20;
+if (time < 18) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+//else if
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 18) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+//to check whether given number is positive or negative
+int myNum = 10; 
+
+if (myNum > 0) {
+  System.out.println("The value is a positive number.");
+} else if (myNum < 0) {
+  System.out.println("The value is a negative number.");
+} else {
+  System.out.println("The value is 0.");
+}
+
+//eligible for voting
+int myAge = 25;
+int votingAge = 18;
+
+if (myAge >= votingAge) {
+  System.out.println("Old enough to vote!");
+} else {
+  System.out.println("Not old enough to vote.");
+}
+
+//to check number is even or odd
+int myNum = 5;
+
+if (myNum % 2 == 0) {
+  System.out.println(myNum + " is even");
+} else {
+  System.out.println(myNum + " is odd");
+} 
